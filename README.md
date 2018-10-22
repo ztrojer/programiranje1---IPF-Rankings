@@ -1,6 +1,5 @@
 Analiziral bom lestvico najboljših powerlifterjev na uradnih tekovanjih. 
 [IPF](https://www.powerlifting-ipf.com/fileadmin/ipf/data/rankings/2018/IPF-2018-Powerlifting-World-Ranking.htm)
-[IPF_source](view-source:https://www.powerlifting-ipf.com/fileadmin/ipf/data/rankings/2018/IPF-2018-Powerlifting-World-Ranking.htm)
 
 Za vsakega tekmovalca bom zajel:
 * starost, spol, težo, narodnost
