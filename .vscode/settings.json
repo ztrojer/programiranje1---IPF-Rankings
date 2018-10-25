@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "C:\\Users\\Žiga\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.enabled": true,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./1-2-3-analiza-podatkov",
+        "-p",
+        "*test.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.promptToConfigure": false
+}
