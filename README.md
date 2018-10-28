@@ -11,5 +11,5 @@ Delovne hipoteze:
 * Ali obstaja povezava med narodnostjo in uvrstitvijo tekovalca?
 
 Mapa uvoz_podatkov vsebuje podatke v html in csv obliki. Poimenovane so tako: ime-tekmovanja_razred.csv. Vse CSV datoteke vsebujejo:
-* glava: uvrstitev tekmovalca, ID tekmovalca, ime, razred tekmovalca (po spolu in starosti), letnica rojstva, zastopajoča država, teža, rezultati v počepu, potisku s prsi, mrtvem dvigu in skupaj ter dosežene točke.
-* podatki o tekmovalcu
+* glavo: uvrstitev tekmovalca, ID tekmovalca, ime, razred tekmovalca (po spolu in starosti), letnica rojstva, zastopajoča država, teža, rezultati v počepu, potisku s prsi, mrtvem dvigu in skupaj ter dosežene točke.
+* podatke o tekmovalcu
