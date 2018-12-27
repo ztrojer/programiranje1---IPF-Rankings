@@ -46,7 +46,7 @@ def razdeli_na_dele(webpage):
     return list[1:]
 
 
-def poisci_podatke(block):
+def poisci_podatke(block):  
     sample = re.compile(
         r'.*?>(?P<uvrstitev>(\d+?|DQ))<?/?[span]*?>?</td><td width="90%.*?'
         r'id="LifterID_(?P<ID_tekmovalca>\d+).*?'
@@ -163,6 +163,27 @@ url_6th_world_classic_WM4 = ('http://en.allpowerlifting.com/results/IPF/2018/6th
 html_6th_world_classic_WM4  = '6th_world_classic_WM4.html'
 csv_6th_world_classic_WM4 = '6th_world_classic_WM4.csv'
 
+url_6th_world_classic_MJ = ('http://en.allpowerlifting.com/results/IPF/2018/6th-world-classic-championships/')
+html_6th_world_classic_MJ  = '6th_world_classic_MJ.html'
+csv_6th_world_classic_MJ = '6th_world_classic_MJ.csv'
+
+url_6th_world_classic_WJ = ('http://en.allpowerlifting.com/results/IPF/2018/6th-world-classic-championships/wj/')
+html_6th_world_classic_WJ  = '6th_world_classic_WJ.html'
+csv_6th_world_classic_WJ = '6th_world_classic_WJ.csv'
+
+url_6th_world_classic_MSJ = ('http://en.allpowerlifting.com/results/IPF/2018/6th-world-classic-championships/msj/')
+html_6th_world_classic_MSJ  = '6th_world_classic_MSJ.html'
+csv_6th_world_classic_MSJ = '6th_world_classic_MSJ.csv'
+
+url_6th_world_classic_WSJ = ('http://en.allpowerlifting.com/results/IPF/2018/6th-world-classic-championships/wsj/')
+html_6th_world_classic_WSJ  = '6th_world_classic_WSJ.html'
+csv_6th_world_classic_WSJ = '6th_world_classic_WSJ.csv'
+
+
+
+
+
+
 #shrani_stran(url_world_masters_MM1, directory_name, html_world_masters_MM1)
 #seznam_slovarjev1 = pridobi_slovar(directory_name, html_world_masters_MM1)
 #zapisi_podatke_v_csv(seznam_slovarjev1, directory_name, csv_filename_MM1)
@@ -226,3 +247,23 @@ csv_6th_world_classic_WM4 = '6th_world_classic_WM4.csv'
 #shrani_stran(url_6th_world_classic_WM4, directory_name, html_6th_world_classic_WM4)
 #seznam_slovarjev16 = pridobi_slovar(directory_name, html_6th_world_classic_WM4)
 #zapisi_podatke_v_csv(seznam_slovarjev16, directory_name, csv_6th_world_classic_WM4)
+
+#shrani_stran(url_6th_world_classic_MJ, directory_name, html_6th_world_classic_MJ)
+#seznam_slovarjev17 = pridobi_slovar(directory_name, html_6th_world_classic_MJ)
+#zapisi_podatke_v_csv(seznam_slovarjev17, directory_name, csv_6th_world_classic_MJ)
+#OPOMBA: drugačen regularni izraz: r'id="Age_\d+"><span title=".+">(?P<razred>J)</span>.*?'
+
+#shrani_stran(url_6th_world_classic_WJ, directory_name, html_6th_world_classic_WJ)
+#seznam_slovarjev18 = pridobi_slovar(directory_name, html_6th_world_classic_WJ)
+#zapisi_podatke_v_csv(seznam_slovarjev18, directory_name, csv_6th_world_classic_WJ)
+#OPOMBA: drugačen regularni izraz: r'id="Age_\d+"><span title=".+">(?P<razred>J)</span>.*?'
+
+#shrani_stran(url_6th_world_classic_MSJ, directory_name, html_6th_world_classic_MSJ)
+#seznam_slovarjev19 = pridobi_slovar(directory_name, html_6th_world_classic_MSJ)
+#zapisi_podatke_v_csv(seznam_slovarjev19, directory_name, csv_6th_world_classic_MSJ)
+#OPOMBA: drugačen regularni izraz: r'id="Age_\d+"><span title=".+">(?P<razred>T)</span>.*?'
+
+#shrani_stran(url_6th_world_classic_WSJ, directory_name, html_6th_world_classic_WSJ)
+#seznam_slovarjev20 = pridobi_slovar(directory_name, html_6th_world_classic_WSJ)
+#zapisi_podatke_v_csv(seznam_slovarjev20, directory_name, csv_6th_world_classic_WSJ)
+#OPOMBA: drugačen regularni izraz: r'id="Age_\d+"><span title=".+">(?P<razred>T)</span>.*?'
